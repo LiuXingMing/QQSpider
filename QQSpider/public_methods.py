@@ -103,16 +103,16 @@ class GetCookie(object):
                     if u'网络繁忙' in d:
                         time.sleep(2)
                 except Exception, e:
-                    wait.until(lambda browser: browser.find_element_by_xpath(
-                        '//*[@id="pageContent"]/div[1]/div[3]/div/div[2]/div[1]/div/b/b/textarea'))
-                    msg_b = browser.find_element_by_xpath(
-                        '//*[@id="pageContent"]/div[1]/div[3]/div/div[2]/div[1]/div/b/b/textarea')
-                    msg_b.send_keys(u'Glory Be to Jehovah')
-                    wait.until(lambda browser: browser.find_element_by_xpath(
-                        '//*[@id="pageContent"]/div[1]/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/a'))
-                    btn = browser.find_element_by_xpath(
-                        '//*[@id="pageContent"]/div[1]/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/a')
-                    btn.click()
+                    # wait.until(lambda browser: browser.find_element_by_xpath(
+                    #     '//*[@id="pageContent"]/div[1]/div[3]/div/div[2]/div[1]/div/b/b/textarea'))
+                    # msg_b = browser.find_element_by_xpath(
+                    #     '//*[@id="pageContent"]/div[1]/div[3]/div/div[2]/div[1]/div/b/b/textarea')
+                    # msg_b.send_keys(u'Glory Be to Jehovah')
+                    # wait.until(lambda browser: browser.find_element_by_xpath(
+                    #     '//*[@id="pageContent"]/div[1]/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/a'))
+                    # btn = browser.find_element_by_xpath(
+                    #     '//*[@id="pageContent"]/div[1]/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/a')
+                    # btn.click()
                     cookie = {}
                     for ck in browser.get_cookies():
                         cookie[ck['name']] = ck['value']
