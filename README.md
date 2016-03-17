@@ -1,13 +1,13 @@
-##**详情请见博客：
-《 [QQ空间爬虫分享（一天可抓取400万条数据）](http://blog.csdn.net/bone_ace/article/details/50759970) 》**##
+##**详情请见博客：《 [QQ空间爬虫分享（一天可抓取400万条数据）](http://blog.csdn.net/bone_ace/article/details/50759970) 》**##
 <p>
 <p>
 如果出现报错：
-> 
+```
 Traceback (most recent call last):
   File ".\inti.py", line 20, in <module>
     my_messages.backups() # 备份爬虫信息
 NameError: name 'my_messages' is not defined
+```
 
 <p>
 多半的原因是 BitVector 模块用不了，可自行调试。
