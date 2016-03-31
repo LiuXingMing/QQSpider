@@ -84,7 +84,7 @@ class BlogSpider(object):
         blog_id = blogs[0]
         myBlog = blogs[1]
         failure = 0
-        while failure < self.message.fail_timev:
+        while failure < self.message.fail_time:
             try:
                 b_url = 'http://b11.qzone.qq.com/cgi-bin/blognew/blog_output_data?uin=%s&blogid=%s' % (
                     self.message.qq, blog_id)
