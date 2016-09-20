@@ -4,7 +4,7 @@
 如果出现报错：
 ```
 Traceback (most recent call last):
-  File ".\inti.py", line 20, in <module>
+  File ".\init.py", line 20, in <module>
     my_messages.backups() # 备份爬虫信息
 NameError: name 'my_messages' is not defined
 ```
