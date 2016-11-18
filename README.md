@@ -20,10 +20,15 @@ NameError: name 'my_messages' is not defined
 <br/>
 <br/>
 ##**QQSpider2:**##
-更新后的版本，详情请见博客： [QQ空间爬虫分享（2016年11月18日更新）](http://blog.csdn.net/Bone_ACE/article/details/53213779)
+更新后的版本，详情请见博客： [《QQ空间爬虫分享（2016年11月18日更新）》](http://blog.csdn.net/Bone_ACE/article/details/53213779)
+
 <br/>
+
 有同学反映，爬QQ空间的很多都是学生想爬一些数据做统计研究的，本不是计算机专业，爬起来比较困难，希望有现成的数据出售。但是因为工作变动，其实今年3月份 程序开发完后我就没有跑过了，所以手上也没有数据。不过接下来我会开一两台机器跑这个爬虫，如果需要数据可以邮件联系我（bone_ace@163.com），100万条说说收费10元，就算是补偿一下机器损耗吧。
+
 <br/>
+
 遇到什么问题请尽量留言，方便后来遇到同样问题的同学查看。也可加一下QQ交流群：<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=d3bd977692493ea2764aec73f6ead724e3b339c2e4f3999383331a0fab20e2a9"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="QSpider" title="QSpider"></a>。
+
 <br/>
 <br/>
