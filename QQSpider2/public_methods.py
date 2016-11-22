@@ -121,6 +121,7 @@ def getCookie(account, password, dama=False):
                     except Exception, e:
                         break
                 except Exception, e:
+                    browser.quit()
                     return ''
             if browser.title == 'QQ空间':
                 cookie = {}
@@ -131,6 +132,7 @@ def getCookie(account, password, dama=False):
                 return json.dumps(cookie)  # 将字典转成字符串
             else:
                 print 'Get the cookie of QQ:%s failed!' % account
+                return ''
         except Exception, e:
             failure = failure + 1
             if 'browser' in dir():
